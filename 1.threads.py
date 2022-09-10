@@ -10,5 +10,6 @@ run()
 t = threading.Thread(name="MyThread",target=run)
 # start the thread
 t.start()
+t.join()
 # Hello from thread <Thread(MyThread, started 41824)>
 
