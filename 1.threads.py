@@ -1,3 +1,9 @@
+'''
+When to Use:
+MultiThreading - Use for I/O Bound Tasks, Ex: Reading, Writing from files, reading/writing via network, db, etc.
+MultiProcessing - Use for CPU Bound Tasks, Ex: Image processing, video transcode, streaming, etc.
+'''
+
 import threading
 
 def run():
