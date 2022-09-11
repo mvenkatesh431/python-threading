@@ -9,6 +9,12 @@ that are very similar to threads but they run on top of a single thread
 
 We can create coroutines using `async` keyword or `@asyncio.coroutine` decorator.
 
+To create and pause a coroutine, you use the Python async and await keywords:
+- The async keyword creates coroutine.
+- The await keyword pauses a coroutine.
+
+To run a coroutine, you need to execute it on an event loop. or use the asyncio.run function
+
 '''
 
 import asyncio
